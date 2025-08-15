@@ -1,4 +1,5 @@
 # Copyright 2018-2022 Streamlit Inc.
+# Copyright 2025 Salesforce, Inc.
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -14,6 +15,9 @@
 
 import streamlit as st
 import textwrap
+
+# Original code updated to use the llama_index_rag_pipeline.py file instead of an object passed to the show_code function
+
 
 file_path = "llamaindex_rag_pipeline.py"
 
