@@ -1,0 +1,8 @@
+streamlit>=1.48.1
+llama-index>=0.13.1
+llama-index-llms-heroku>=0.1.0
+llama-index-vector-stores-postgres>=0.6.3
+llama-index-embeddings-openai-like>=0.2.1
+dotenv>=0.9.9
+sqlalchemy>=2.0.43
+psycopg2>=2.9.10

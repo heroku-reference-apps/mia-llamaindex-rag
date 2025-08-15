@@ -1,0 +1,29 @@
+{
+    "name": "mia-llamaindex-rag",
+    "description": "RAG chat with LlamaIndex and Heroku AI",
+    "stack": "heroku-24",
+    "addons": [
+        {
+            "plan": "heroku-postgresql:essential-0"
+        },
+        {
+            "plan": "heroku-inference:claude-4-sonnet",
+            "as": "INFERENCE"
+        },
+        {
+            "plan": "heroku-inference:cohere-embed-multilingual",
+            "as": "EMBEDDING"
+        }
+    ],
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "web": {
+            "quantity": 1,
+            "size": "standard-1x"
+        }
+    }
+}

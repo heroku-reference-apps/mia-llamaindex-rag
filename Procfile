@@ -1,0 +1,1 @@
+web: streamlit run mia_llamaindex.py --server.port $PORT
