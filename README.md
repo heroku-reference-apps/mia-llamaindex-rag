@@ -13,6 +13,8 @@ This is a RAG chat application that uses [LlamaIndex](https://www.llamaindex.ai/
 
 Check out the [llamaindex_rag_pipeline.py](llamaindex_rag_pipeline.py) file for the RAG pipeline example.
 
+![Screenshot](assets/screenshot.png)
+
 ## Quick start - Installation instructions
 
 The fastest & easiest way to get started is to choose option 1 below: automatic deployment on Heroku.
